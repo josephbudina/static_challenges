@@ -1,0 +1,32 @@
+header {
+  font-weight: bold;
+  background-color: #f30e0e;
+  display: flex;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.side {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1.5px;
+  padding-right: 1px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1.5px;
+}
+nav {
+  background-color: #3d3535;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px
+}
